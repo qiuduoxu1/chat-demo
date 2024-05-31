@@ -1,0 +1,155 @@
+ .total {
+     border: 1px solid #dedede;
+     border-radius: 20px;
+     box-shadow: 50px 50px 100px 10px rgba(0, 0, 0, .1);
+     color: #303030;
+     background-color: #fff;
+     min-width: 600px;
+     min-height: 370px;
+     max-width: 1200px;
+     display: flex;
+     overflow: hidden;
+     box-sizing: border-box;
+     width: 90vw;
+     height: 90vh;
+     margin: 300px auto;
+ }
+
+ /*  左边主体框架 */
+ .left {
+     top: 0;
+     width: 300px;
+     box-sizing: border-box;
+     padding: 20px;
+     background-color: #e7f8ff;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     transition: width .05s ease;
+
+ }
+
+ /* 左边新的聊天框 leftchat.css*/
+ .home_sidebar-body_9zbei {
+     flex: 1 1;
+     overflow: auto;
+     overflow-x: hidden;
+ }
+
+ .chat-list {
+     overflow-anchor: none;
+     position: relative;
+ }
+
+ .home_chat-item-selected_b6eBe {
+     background-color: #1d93ab;
+ }
+
+ .home_chat-item_Oblai {
+     padding: 10px 14px;
+     background-color: #fff;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .05);
+     border: 2px solid transparent;
+     position: relative;
+     content-visibility: auto;
+ }
+
+ .home_chat-item_sRstw {
+     font-size: 14px;
+     font-weight: bold;
+     display: block;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+
+ .home_chat-item-info_9r6z {
+     display: flex;
+     justify-content: space-between;
+     color: #a6a6a6;
+     font-size: 12px;
+     margin-top: 8px;
+ }
+
+ .home_chat-item-count_Lpy {
+     overflow: hidden;
+ }
+
+ .home_chat-item-date_NOFrp {
+     overflow: hidden;
+ }
+
+ /* 左边标题 leftupper.css */
+ .home_sidebar-header_Nhg {
+     position: relative;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     display: flex;
+ }
+
+ .home_sidebar-title_13KhW {
+     font-size: 20px;
+     font-weight: bold;
+
+ }
+
+ .home_sidebar-sub-title_sbT6Z {
+     font-size: 12px;
+     font-weight: normal;
+
+ }
+
+ /* 左边面具按钮 maskbutton.css */
+ .home_sidebar-header-bar_SVjIN {
+     display: flex;
+     justify-content: center;
+     /* 水平居中 */
+     align-items: center;
+     /* 垂直居中 */
+     margin-bottom: 20px;
+ }
+
+ .button_icno-button_zJdvm {
+     margin-right: 10px;
+     flex-grow: 1;
+     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .05);
+
+ }
+
+ .button_icno-button-text_my76e {
+     color: #303030;
+     white-space: nowrap;
+
+ }
+
+ .button_icno-button_VwAMf {
+
+     background-color: #fff;
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+     cursor: pointer;
+     overflow: hidden;
+     outline: none;
+     border: none;
+     color: #303030;
+ }
+
+ /* svg */
+ .home_chat-item-delete__3qV5m {
+     position: absolute;
+     top: 0;
+     right: 0;
+     transition: all .3s ease;
+     opacity: 0;
+     cursor: pointer;
+ }
+
+ .chat-list:hover .home_chat-item-delete__3qV5m {
+     opacity: 1;
+     cursor: pointer;
+ }
